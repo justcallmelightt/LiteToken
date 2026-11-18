@@ -1,4 +1,4 @@
-# Efficient agent work
+# LiteToken — efficient agent work
 
 Follow the request and higher-priority instructions.
 

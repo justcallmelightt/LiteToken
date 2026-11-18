@@ -1,8 +1,8 @@
 [English](README.md) | [한국어](README.ko.md)
 
-# AGENTS.md
+# LiteToken
 
-Token Saver is a short [`AGENTS.md`](AGENTS.md) template for reducing avoidable context gathering, repeated tool work, and overlong answers while keeping the checks a task needs.
+LiteToken is a short [`AGENTS.md`](AGENTS.md) template for reducing avoidable context gathering, repeated tool work, and overlong answers while keeping the checks a task needs.
 
 ## Use it in a project
 
@@ -16,7 +16,7 @@ Keep always-on instructions short. Put task-specific procedures in Skills, keep 
 
 This repository ships one compact `AGENTS.md` and no `SKILL.md`. Its rules guide the agent to inspect only relevant context, avoid repeated tool work, and select installed specialized Skills only when the task calls for them. Required Skill instructions are read in full; optional references are loaded on demand. The template also avoids repeating the same rule across instruction files.
 
-This is how Token Saver is designed to reduce avoidable token use, including its own instruction overhead. It does not guarantee lower total or billed tokens; short tasks may still cost more because the template is loaded.
+This is how LiteToken is designed to reduce avoidable token use, including its own instruction overhead. It does not guarantee lower total or billed tokens; short tasks may still cost more because the template is loaded.
 
 ## Evaluate it
 
