@@ -21,3 +21,5 @@ This is how LiteToken is designed to reduce avoidable token use, including its o
 ## Evaluate it
 
 Compare representative tasks with and without these instructions, using the same model, settings, and environment. Include a simple question, a focused code change, a task with long tool output, and a broad or high-stakes request. Record result quality and completeness alongside input/output tokens, tool calls, and elapsed time. Include `AGENTS.md`, selected `SKILL.md` files, and optional reference-loading costs where measurable. Do not claim a savings percentage from transcript length alone.
+
+For each task, calculate token change as `(baseline total tokens − LiteToken total tokens) ÷ baseline total tokens × 100`. Publish the median and range across comparable tasks only when result quality is maintained. A single best-case result is not a general “up to” claim. This repository has not measured a token-saving percentage yet.
